@@ -19,7 +19,7 @@ public class Factura implements Euro {
 		mLineas[i].mArticulo=null;
 		mLineas[i].mPrecio=0;
 	}
-	
+
 	public void show() {
 		double total=0;
 		System.out.println(mNumero + "; " + mFecha);
@@ -27,8 +27,7 @@ public class Factura implements Euro {
 		mLineas[i].show();
 		total+=mLineas[i].mPrecio;
 		}
-		System.out.println("\tTotal .... " + total + " pts.");
-		System.out.println("\t
-		" + (total/kCambio) + " euros");
+		System.out.println("Total .... " + total + " pts. \n");
+		System.out.println((total/kCambio) + " euros");
 	}
 }
