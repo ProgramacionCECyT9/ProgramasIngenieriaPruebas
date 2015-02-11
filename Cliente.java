@@ -1,6 +1,7 @@
 import java.util.Vector;
 
 public class Cliente {
+	
 	String mNIF, mNombre;
 	Vector mFacturas;
 
